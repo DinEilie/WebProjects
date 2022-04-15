@@ -3,24 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Din Eilie - Resume</title>
+        <p>
+            <table cellspacing="30">
+                <tr>
+                    <td><a href="#Career_objective">About me</a></td>
+                    <td><a href="#Work_expereience">Work experience</a></td>
+                    <td><a href="#Education">Education</a></td>
+                    <td><a href="#">Projects</a></td>
+                    <td><a href="#Contact_me">Contact me</a></td>
+                </tr>
+            </table>
+        </p>
     </head>
     <body>
-        <!-- Welcome to my resume -->
-        <h1>Din Eilie</h1>
-
-        <!-- Job title -->
-        <p><em><strong>Software Developer</strong></em></p><hr size="5" noshade>
+        <table cellspacing="15">
+            <tr>
+                <td><img src="images/Din-Eilie-Profile.png" alt="Din Eilie profile picture" width="150" height="150"></td>
+                <td><h1>Din Eilie</h1><p><em><strong>Software Developer</strong></em></p><hr size="5" noshade></td>
+            </tr>
+        </table>
 
         <!-- My career objectives -->
-        <p><h3>CAREER OBJECTIVE</h3><strong>Experienced</strong> Information Technology Admin well-versed in infrastructure, security
+        <p><h3 id="Career_objective">CAREER OBJECTIVE</h3><strong>Experienced</strong> Information Technology Admin well-versed in infrastructure, security
             planning<br> and daily operations management. Currently studying <strong>Computer Science</strong>
             and seeking<br> <strong>Junior Software Developer</strong> position.
         </p><hr size="3">
 
         <!-- My work experience -->
-        <p><h3>WORK EXPERIENCE</h3>
+        <p>
+            <h3 id="Work_expereience">WORK EXPERIENCE</h3>
             <h4>IT Administrator</h4>
-            Menora Mivtachim Insurance<br>
+            <a href="https://www.menoramivt.co.il/" target="_blank">Menora Mivtachim Insurance</a><br>
             2018 – 2021 / Ramat Gan, IL
             <ul>
                 <li>Member of a <ins><strong>senior team</strong></ins> of technicians that is responsible for<br>
@@ -38,7 +51,7 @@
 
         <!-- My education -->
         <p>
-            <h3>Education</h3>
+            <h3 id="Education">Education</h3>
             <h4>B.Sc – Computer Science</h4>
             The Open University<br>
             2020 – PRESENT / Ra’anana, IL
@@ -52,11 +65,22 @@
             <h4>Microsoft Certified Solutions Associate</h4>
             John Bryce<br>
             2018 / Haifa, IL<br>
-        </p>
+        </p><hr size="3">
         
         <!-- My projects -->
         <p>
 
         </p>
+
+        <!-- Contact -->
+        <p>
+            <h3 id="Contact_me">Contact me</h3>
+                You can contact me via <a href="mailto:dineilie1997@gmail.com">Email: dineilie1997@gmail.com</a> or  my phone number: +972-54-9247262.
+                <br>Feel free to send me a message! 
+        </p>
+        <form>
+            <label>Your Name: </label><input type="text" value="Member"><br>
+            <label>Your Message: </label><br><textarea rows="7" cols="65" ></textarea>
+        </form>
     </body>
 </html>
