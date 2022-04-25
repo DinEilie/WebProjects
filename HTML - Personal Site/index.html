@@ -75,12 +75,14 @@
         <!-- Contact -->
         <p>
             <h3 id="Contact_me">Contact me</h3>
-                You can contact me via <a href="mailto:dineilie1997@gmail.com">Email: dineilie1997@gmail.com</a> or  my phone number: +972-54-9247262.
+                You can contact me via Email: dineilie1997@gmail.com or  my phone number: +972-54-9247262.
                 <br>Feel free to send me a message! 
         </p>
-        <form>
-            <label>Your Name: </label><input type="text" value="Member"><br>
-            <label>Your Message: </label><br><textarea rows="7" cols="65" ></textarea>
+        <form action="mailto:dineilie1997@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name: </label><input type="text" name="yourNameInput" value="Bubble bubly"><br>
+            <label>Your Email: </label><input type="email" name="yourEmailInput" value="email@something.com"><br>
+            <label>Your Message: </label><br><textarea rows="7" cols="65" name="yourMessageInput" ></textarea><br>
+            <input type="submit">
         </form>
     </body>
 </html>
