@@ -5,7 +5,7 @@
         <title>Din Eilie - Resume</title>
         <link rel="stylesheet" href="css/styles.css">
         <p>
-            <table cellspacing="30" style="background-color: #00ADB5;">
+            <table cellspacing="30">
                 <tr>
                     <td><a href="#Career_objective">About me</a></td>
                     <td><a href="#Work_expereience">Work experience</a></td>
@@ -19,24 +19,27 @@
     <body>
         <table cellspacing="15">
             <tr>
-                <td><img src="images/Din-Eilie-Profile.png" alt="Din Eilie profile picture" width="150" height="150"></td>
-                <td><h1>Din Eilie</h1><p><em><strong>Software Developer</strong></em></p></td>
+                <td><img id="Profile" src="images/Din-Eilie-Profile.png" alt="Din Eilie profile picture" width="150" height="150"></td>
+                <td><h1 class="Title">Din Eilie</h1><p><em><strong class="SubTitle">Software Developer</strong></em></p></td>
             </tr>
         </table>
 
         <!-- My career objectives -->
-        <p><h3 id="Career_objective">CAREER OBJECTIVE</h3><strong>Experienced</strong> Information Technology Admin well-versed in infrastructure, security
+        <h3 class="Title" id="Career_objective">CAREER OBJECTIVE</h3>
+        <p class="Para"><strong>Experienced</strong>
+            Information Technology Admin well-versed in infrastructure, security
             planning<br> and daily operations management. Currently studying <strong>Computer Science</strong>
             and seeking<br> <strong>Junior Software Developer</strong> position.
         </p><hr size="3">
 
         <!-- My work experience -->
-        <p>
-            <h3 id="Work_expereience">WORK EXPERIENCE</h3>
-            <h4>IT Administrator</h4>
+        
+        <h3 class="Title" id="Work_expereience">WORK EXPERIENCE</h3>
+        <h4 class="SubTitle">IT Administrator</h4>
+        <p class="Para">
             <a href="https://www.menoramivt.co.il/" target="_blank">Menora Mivtachim Insurance</a><br>
             2018 – 2021 / Ramat Gan, IL
-            <ul>
+            <ul class="Para">
                 <li>Member of a <ins><strong>senior team</strong></ins> of technicians that is responsible for<br>
                     installing software and hardware devices.</li><br>
                 <li>Manage and distribute security and infrastructure updates using<br>
@@ -51,21 +54,21 @@
         </p><hr size="3">
 
         <!-- My education -->
-        <p>
-            <h3 id="Education">Education</h3>
-            <h4>B.Sc – Computer Science</h4>
+        <h3 class="Title" id="Education">Education</h3>
+        <h4 class="SubTitle">B.Sc – Computer Science</h4>
+        <p class="Para">
             The Open University<br>
             2020 – PRESENT / Ra’anana, IL
-            <ul>
+            <ul class="Para">
                 <li>Excellence in Java development course.</li><br>
                 <li>Proficiency in Data structures and algorithms course.</li><br>
             </ul>
-            <h4>Web Development Bootcamp</h4>
+            <h4 class="SubTitle">Web Development Bootcamp</h4><p class="Para">
             Dr. Angela Yu<br>
-            2022 - PRESENT/ Udemy<br>
-            <h4>Microsoft Certified Solutions Associate</h4>
+            2022 - PRESENT/ Udemy<br></p>
+            <h4 class="SubTitle">Microsoft Certified Solutions Associate</h4><p class="Para">
             John Bryce<br>
-            2018 / Haifa, IL<br>
+            2018 / Haifa, IL<br></p>
         </p><hr size="3">
         
         <!-- My projects -->
@@ -74,12 +77,12 @@
         </p>
 
         <!-- Contact -->
-        <p>
-            <h3 id="Contact_me">Contact me</h3>
+        <h3 class="Title" id="Contact_me">Contact me</h3>
+        <p class="Para">
                 You can contact me via Email: dineilie1997@gmail.com or  my phone number: +972-54-9247262.
                 <br>Feel free to send me a message! 
         </p>
-        <form action="mailto:dineilie1997@gmail.com" method="post" enctype="text/plain">
+        <form class="Para" action="mailto:dineilie1997@gmail.com" method="post" enctype="text/plain">
             <label>Your Name: </label><input type="text" name="yourNameInput" value="Bubble bubly"><br>
             <label>Your Email: </label><input type="email" name="yourEmailInput" value="email@something.com"><br>
             <label>Your Message: </label><br><textarea rows="7" cols="65" name="yourMessageInput" ></textarea><br>

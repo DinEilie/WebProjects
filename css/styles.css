@@ -1,18 +1,29 @@
+/*colors: #051622 #1BA098 #DEB992 */
+/**************************************** Tag Selectors ****************************************/
+
 body {
-  background-color: #EEEEEE;
+  background-color: #051622;
 }
-h3 {
-    color: #00ADB5;
-}
-h4 {
-    color: #00ADB5;
-}
+
 hr {
-  border-color: #393E46;
-  background-color: #EEEEEE;
+  border-color: #977f66;
   border-style: none;
   border-top-style: dotted;
   border-top-width: 10px;
   height: 0px;
   width: 8%;
+}
+
+/**************************************** Class Selectors ****************************************/
+
+.Title {
+  color: #DEB992;
+}
+
+.SubTitle {
+  color: #977f66;
+}
+
+.Para {
+  color: #1BA098;
 }
