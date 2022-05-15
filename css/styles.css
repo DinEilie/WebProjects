@@ -3,6 +3,9 @@
 
 body {
   background-color: #051622;
+  margin: 0%;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 hr {
@@ -12,18 +15,121 @@ hr {
   border-top-width: 10px;
   height: 0px;
   width: 8%;
+  margin-top: 128px;
+  margin-bottom: 32px;
 }
 
 /**************************************** Class Selectors ****************************************/
 
+.Main_Title {
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1100%;
+  color: #DEB992;
+}
+
 .Title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 400%;
+  margin-bottom: 0%;
+  margin-top: 128px;
   color: #DEB992;
 }
 
 .SubTitle {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 161.25%;
+  margin-bottom: 0%;
   color: #977f66;
 }
 
 .Para {
+  line-height: 24px;
   color: #1BA098;
 }
+
+.Navbar_Head {
+  width: 100%;
+  display: none;
+}
+
+.Navbar {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  background-color: #09283e;
+  
+}
+
+.Profile {
+  background-image: linear-gradient(#09283e, #051622);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Sub_Profile {
+  width: 700px;
+  height: 200px;
+  margin: auto;
+}
+
+.Profile_Picture {
+  width: 150px; 
+  height: 150px;
+  float: right;
+  margin-top: 40px;
+}
+
+.Career {
+  text-align: left;
+  width: 800px;
+  margin: auto;
+}
+
+.CareerIMG {
+  width: 150px; 
+  height: 150px;
+  float: left;
+  margin-right: 16px;
+}
+
+.WorkIMG {
+  width: 150px; 
+  height: 150px;
+  float: right;
+}
+
+.Work {
+  text-align: left;
+  width: 800px;
+  margin: auto;
+}
+
+.Education {
+  text-align: left;
+  width: 800px;
+  margin: auto;
+}
+
+.EducationIMG {
+  width: 150px; 
+  height: 150px;
+  float: left;
+  margin-right: 64px;
+}
+
+.Contact {
+  text-align: left;
+  width:  700px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.ContactIMG {
+  width: 150px; 
+  height: 150px;
+  float: right;
+}
+
+/**************************************** Class Selectors ****************************************/

@@ -4,37 +4,41 @@
         <meta charset="UTF-8">
         <title>Din Eilie - Resume</title>
         <link rel="stylesheet" href="css/styles.css">
-        <p>
-            <table cellspacing="30">
-                <tr>
-                    <td><a href="#Career_objective">About me</a></td>
-                    <td><a href="#Work_expereience">Work experience</a></td>
-                    <td><a href="#Education">Education</a></td>
-                    <td><a href="#">Projects</a></td>
-                    <td><a href="#Contact_me">Contact me</a></td>
-                </tr>
-            </table>
-        </p>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Merriweather+Sans:ital@1&family=Montserrat+Alternates&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <table cellspacing="15">
-            <tr>
-                <td><img id="Profile" src="images/Din-Eilie-Profile.png" alt="Din Eilie profile picture" width="150" height="150"></td>
-                <td><h1 class="Title">Din Eilie</h1><p><em><strong class="SubTitle">Software Developer</strong></em></p></td>
-            </tr>
-        </table>
-
+    <div class="Navbar_Head">
+        <div class="Navbar">
+            <a href="#Career_objective">About me</a>
+            <a href="#Work_expereience">Work experience</a>
+            <a href="#Education">Education</a>
+            <a href="#">Projects</a>
+            <a href="#Contact_me">Contact me</a>
+        </div>
+    </div>
+    <div class="Profile">
+        <div class="Sub_Profile">
+            <img class="Profile_Picture" src="images/Din-Eilie-Profile.png" alt="Din Eilie profile picture">
+            <h1 class="Main_Title">I'm Din!</h1>
+            <p style="margin-bottom: 20px; margin-top: 0%;"><em><strong class="SubTitle">Software Developer</strong></em></p>
+        </div>
+    </div>
+    <div class="Career">
         <!-- My career objectives -->
+        <img class="CareerIMG" src="images/announcement.png" alt="Creer image">
         <h3 class="Title" id="Career_objective">CAREER OBJECTIVE</h3>
         <p class="Para"><strong>Experienced</strong>
             Information Technology Admin well-versed in infrastructure, security
-            planning<br> and daily operations management. Currently studying <strong>Computer Science</strong>
-            and seeking<br> <strong>Junior Software Developer</strong> position.
-        </p><hr size="3">
-
+            planning and daily operations management. Currently studying <strong>Computer Science</strong>
+            and seeking <strong>Junior Software Developer</strong> position.
+        </p>
+    </div><hr size="3">
+    <div class="Work">
         <!-- My work experience -->
-        
-        <h3 class="Title" id="Work_expereience">WORK EXPERIENCE</h3>
+        <img class="WorkIMG" src="images/Work.png" alt="Work image">
+        <h3 class="Title" id="Work_expereience">WORK EXPERIENCE</h3><br><br>
         <h4 class="SubTitle">IT Administrator</h4>
         <p class="Para">
             <a href="https://www.menoramivt.co.il/" target="_blank">Menora Mivtachim Insurance</a><br>
@@ -51,10 +55,12 @@
                 <li>Providing support and technical service to all employees of the<br>
                     organization, agents and CEOs.</li><br>
             </ul>
-        </p><hr size="3">
-
+        </p>
+    </div><hr size="3">
+    <div class="Education">
         <!-- My education -->
-        <h3 class="Title" id="Education">Education</h3>
+        <img class="EducationIMG" src="images/Education.png" alt="Education image">
+        <h3 class="Title" id="Education">Education</h3><br><br>
         <h4 class="SubTitle">B.Sc – Computer Science</h4>
         <p class="Para">
             The Open University<br>
@@ -69,17 +75,17 @@
             <h4 class="SubTitle">Microsoft Certified Solutions Associate</h4><p class="Para">
             John Bryce<br>
             2018 / Haifa, IL<br></p>
-        </p><hr size="3">
-        
-        <!-- My projects -->
-        <p>
-
         </p>
+    </div><hr size="3">
+    <div class="Projects">
 
+    </div>
+    <div class="Contact">
         <!-- Contact -->
-        <h3 class="Title" id="Contact_me">Contact me</h3>
+        <img class="ContactIMG" src="images/letter.png" alt="contact image">
+        <h3 class="Title" id="Contact_me">Contact me</h3><br><br><br>
         <p class="Para">
-                You can contact me via Email: dineilie1997@gmail.com or  my phone number: +972-54-9247262.
+                You can contact me via my phone number: +972-54-9247262.
                 <br>Feel free to send me a message! 
         </p>
         <form class="Para" action="mailto:dineilie1997@gmail.com" method="post" enctype="text/plain">
@@ -88,5 +94,5 @@
             <label>Your Message: </label><br><textarea rows="7" cols="65" name="yourMessageInput" ></textarea><br>
             <input type="submit">
         </form>
-    </body>
+    </div>
 </html>
