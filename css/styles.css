@@ -14,7 +14,7 @@ hr {
   border-top-style: dotted;
   border-top-width: 10px;
   height: 0px;
-  width: 8%;
+  width: 5%;
   margin-top: 128px;
   margin-bottom: 32px;
 }
@@ -132,4 +132,30 @@ hr {
   float: right;
 }
 
+.btn {
+  background: #09283e;
+  background-image: -webkit-linear-gradient(top, #09283e, #051622);
+  background-image: -moz-linear-gradient(top, #09283e, #051622);
+  background-image: -ms-linear-gradient(top, #09283e, #051622);
+  background-image: -o-linear-gradient(top, #09283e, #051622);
+  background-image: linear-gradient(to bottom, #09283e, #051622);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #1BA098;
+  font-size: 40px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #051622;
+  background-image: -webkit-linear-gradient(top, #051622, #09283e);
+  background-image: -moz-linear-gradient(top, #051622, #09283e);
+  background-image: -ms-linear-gradient(top, #051622, #09283e);
+  background-image: -o-linear-gradient(top, #051622, #09283e);
+  background-image: linear-gradient(to bottom, #051622, #09283e);
+  text-decoration: none;
+}
 /**************************************** Class Selectors ****************************************/
